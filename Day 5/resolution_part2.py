@@ -28,7 +28,7 @@ def mover(pilha, movimento):
     pilha[posicao_final-1] = blocos + pilha[posicao_final-1]
     pilha[posicao_inicial-1] = pilha[posicao_inicial-1][quantidade:]
 
-    return(pilha)
+    return pilha
 
 for i in instrucoes:
     pilhas = mover(pilhas, i)
